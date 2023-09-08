@@ -3,9 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
+  <link href="../dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-  
+<body class="font-lato">
+    <header class="text-white">
+      <nav class="flex w-4/5 mx-auto my-10 bg-red-400 justify-around rounded-full p-3">
+        <ul class="flex gap-5 justify-center ">
+          <li class="self-center"><a href="">Home</a></li>
+          <li class="self-center"><a href="" >About Us</a></li>
+          <li class="self-center"><a href="" >Shop</a></li>
+          <li class="self-center"><a href="" >All Fruits</a></li>
+        </ul>
+        <div class="flex justify-center gap-4">
+          <img src="../images/logo.png" alt="">
+          <h3 class="text-4xl self-center font-bold">Fruit Burst</h3>
+        </div>
+        <div class=" bg-white flex rounded-full justify-around h-fit self-center">
+          <input type="text" name="" id="" placeholder="Search here" class="rounded-full w-80 px-7 focus:outline-none text-gray-400">
+        <button class="px-7 py-4"><img src="../images/icons/Frame.svg" alt=""></button>
+        </div>
+        
+      </nav>
+    </header>
+    <main>
+     
+      <section class="w-4/5 mx-auto my-10 relative ">
+      <!-- Banner section  -->
+      <!-- carousel  -->
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="../images/Carousel/banner1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle btn-neutral">❮</a> 
+            <a href="#slide2" class="btn btn-circle btn-neutral">❯</a>
+          </div>
+        </div>  
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="../images/Carousel/banner2.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle btn-neutral">❮</a> 
+            <a href="#slide3" class="btn btn-circle btn-neutral">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="../images/Carousel/banner3.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle btn-neutral">❮</a> 
+            <a href="#slide4" class="btn btn-circle btn-neutral">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="../images/Carousel/banner4.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle btn-neutral">❮</a> 
+            <a href="#slide1" class="btn btn-circle btn-neutral">❯</a>
+          </div>
+        </div>
+      </div>
+      <!-- over the carousel  -->
+      <div class="flex flex-col items-center gap-8 bg-transparent absolute top-12 right-1/2 translate-x-1/2 w-4/5 mx-auto ">
+        <h2 class="text-7xl font-bold max-sm text-center mx-auto text-white">Exotic tastes at your doorstep</h2>
+      <p class="text-white">We supply highly quality organic products</p>
+      <button class="btn btn-error text-white">Shop Now</button>
+      <div class="flex  bg-white justify-evenly w-full a">
+        <div class="">
+          <img src="../images/fruts/fruit1.png" alt="" class="w-28">
+          <p class="text-center">Strawberry</p>
+        </div>
+        <div class="">
+          <img src="../images/fruts/fruit2.png" alt="" class="w-28">
+          <p class="text-center">Orange</p>
+        </div>
+        <div class="">
+          <img src="../images/fruts/fruit3.png" alt="" class="w-28">
+          <p class="text-center">Mango</p>
+        </div>
+        <div class="">
+          <img src="../images/fruts/fruit4.png" alt="" class="w-28">
+          <p class="text-center">Strawberry</p>
+        </div>
+        <div class="">
+          <img src="../images/fruts/fruit5.png" alt="" class="w-28">
+          <p class="text-center">Mango</p>
+        </div>
+      </div>
+      </div>
+      
+      
+      </section>
+    </main>
+    
 </body>
 </html>
